@@ -1,0 +1,70 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  text-shadow:
+    0 0 7px #f41515,
+    0 0 10px #ffffff,
+    0 0 21px #e10505,
+    0 0 42px   #ff0000,
+    0 0 82px #ffffff,
+    0 0 92px #ff0000,
+    0 0 102px #ffffff,
+    0 0 151px #ff0019;
+  margin: 3em;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  color: #d21414;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+button:active {
+  background: #d6f0d6;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 4px solid red;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid red;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
